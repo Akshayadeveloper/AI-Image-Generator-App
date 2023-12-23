@@ -1,0 +1,43 @@
+/* styles.css */
+@import url( 
+"https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); 
+* { 
+	box-sizing: border-box; 
+	margin: 0; 
+	padding: 0;
+  color:#fff;
+}
+        body {
+            font-family: 'Arial', sans-serif;
+          overflow: hidden;
+            background: url('https://source.unsplash.com/1920x1080/?sparkle') no-repeat fixed;
+            background-size: cover;
+            animation: sparkleBackground 10s infinite linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        #imageContainer {
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 400px;
+            border: 1px solid #333;
+            margin-bottom: 20px;
+            border:1px solid #fff;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px;
+            cursor: pointer;
+          color:#fff;
+     background-image: url("https://cdn.pixabay.com/animation/2023/06/06/06/51/06-51-32-766_512.gif"); }
+     
+    
